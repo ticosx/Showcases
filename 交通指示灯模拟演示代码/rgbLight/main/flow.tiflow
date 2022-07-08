@@ -1,0 +1,375 @@
+{
+  "comments": [
+    {
+      "content": "D8是绿色\nD9是黄色\nD10是红灯",
+      "id": "_jwLKVwyb",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": -8
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 6
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "LA5YiHTPy",
+      "input": {
+        "nodeId": "jUpB9n6d2",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "yf8n5aV65",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "rHIfTKtuM",
+      "input": {
+        "nodeId": "Yk406CpgX",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "jUpB9n6d2",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "v81qdVNEi",
+      "input": {
+        "nodeId": "qpidRfenu",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "jUpB9n6d2",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "nQW-cHZca",
+      "input": {
+        "nodeId": "MUENpRZJC",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "yXAkZrrWr",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "EaEZBYaJ0",
+      "input": {
+        "nodeId": "3-DDY_MuL",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "yXAkZrrWr",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "gK4oHP7jz",
+      "input": {
+        "nodeId": "39Uhv6RZD",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "MUENpRZJC",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "yVloo5fWJ",
+      "input": {
+        "nodeId": "ky2aq-BxE",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "39Uhv6RZD",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "se1HunLxj",
+      "input": {
+        "nodeId": "bE-3lvIdo",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "39Uhv6RZD",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "_9ciSMrGz",
+      "input": {
+        "nodeId": "-EP-YKJ0X",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "ky2aq-BxE",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "mkrh5t5xs",
+      "input": {
+        "nodeId": "yf8n5aV65",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "l8DSJv5JH",
+        "pinKey": "ByHmL0uHPk-"
+      }
+    },
+    {
+      "id": "8SAUl9-Mn",
+      "input": {
+        "nodeId": "l8DSJv5JH",
+        "pinKey": "ryv7IRdSP1b"
+      },
+      "output": {
+        "nodeId": "SFDlA56jO",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "XgH-f5Jgt",
+      "input": {
+        "nodeId": "vvFRE0LB5",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "-EP-YKJ0X",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "hskyqe18h",
+      "input": {
+        "nodeId": "QoU0mtDH3",
+        "pinKey": "BJI7P8t9Z"
+      },
+      "output": {
+        "nodeId": "-EP-YKJ0X",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "U2n7R8kpX",
+      "input": {
+        "nodeId": "l8DSJv5JH",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "QoU0mtDH3",
+        "pinKey": "HJhXDIY9-"
+      }
+    },
+    {
+      "id": "I9eBN07wb",
+      "input": {
+        "nodeId": "yXAkZrrWr",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "Yk406CpgX",
+        "pinKey": "ry3pcpqyX"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "BygApTqym": "Continuously",
+        "HJ6HsEngZ": "True",
+        "rJjXFA9JQ": "D10"
+      },
+      "id": "yf8n5aV65",
+      "label": "红色亮",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": -3
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "True",
+        "rJjXFA9JQ": "D9"
+      },
+      "id": "Yk406CpgX",
+      "label": "黄灯亮",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -3
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "5"
+      },
+      "id": "jUpB9n6d2",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -3
+      },
+      "type": "ticos/core/delay"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "False",
+        "rJjXFA9JQ": "D10"
+      },
+      "id": "qpidRfenu",
+      "label": "红灯灭",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "1"
+      },
+      "id": "yXAkZrrWr",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": -3
+      },
+      "type": "ticos/core/delay"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "True",
+        "rJjXFA9JQ": "D8"
+      },
+      "id": "MUENpRZJC",
+      "label": "绿灯亮",
+      "position": {
+        "units": "slots",
+        "x": 18,
+        "y": -3
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "False",
+        "rJjXFA9JQ": "D9"
+      },
+      "id": "3-DDY_MuL",
+      "label": "黄灯灭",
+      "position": {
+        "units": "slots",
+        "x": 18,
+        "y": 2
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "5"
+      },
+      "id": "39Uhv6RZD",
+      "position": {
+        "units": "slots",
+        "x": 24,
+        "y": -3
+      },
+      "type": "ticos/core/delay"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "False",
+        "rJjXFA9JQ": "D8"
+      },
+      "id": "bE-3lvIdo",
+      "label": "绿灯灭",
+      "position": {
+        "units": "slots",
+        "x": 30,
+        "y": 2
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "True",
+        "rJjXFA9JQ": "D9"
+      },
+      "id": "ky2aq-BxE",
+      "label": "黄灯亮",
+      "position": {
+        "units": "slots",
+        "x": 30,
+        "y": -3
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "1"
+      },
+      "id": "-EP-YKJ0X",
+      "position": {
+        "units": "slots",
+        "x": 36,
+        "y": -3
+      },
+      "type": "ticos/core/delay"
+    },
+    {
+      "id": "l8DSJv5JH",
+      "position": {
+        "units": "slots",
+        "x": -12,
+        "y": -3
+      },
+      "type": "ticos/core/any"
+    },
+    {
+      "id": "SFDlA56jO",
+      "position": {
+        "units": "slots",
+        "x": -18,
+        "y": -3
+      },
+      "type": "ticos/core/boot"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "False",
+        "rJjXFA9JQ": "D9"
+      },
+      "id": "vvFRE0LB5",
+      "label": "黄灯灭",
+      "position": {
+        "units": "slots",
+        "x": 42,
+        "y": 2
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "id": "QoU0mtDH3",
+      "position": {
+        "units": "slots",
+        "x": 42,
+        "y": -3
+      },
+      "type": "ticos/core/defer"
+    }
+  ]
+}
