@@ -1,9 +1,10 @@
 
-第二节：用[Ticos Studio](https://downloads.ticos.cn/studio/)编写交通信号指示灯
+## 用[Ticos Studio](https://downloads.ticos.cn/studio/)编写交通信号指示灯
 
 #### 结果展示
 
-![rgblight](./images/demo.mov)
+![rgbLight](./images/rgbLight.gif)
+
 
 
 #### 工作流示例
