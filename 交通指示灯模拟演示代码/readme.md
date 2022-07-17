@@ -21,6 +21,6 @@
 
 
 欢迎关注我们的公众号，更多信息会通过公众号第一时间更新。
-<img src="./images/qrcode_for_gh_fb2b604ddd35_860%20(2).jpg"  style="zoom: 25%;" />
+<img src="./images/qrcode_for_gh_fb2b604ddd35_860%20(2).jpg"  width = "300" height = "300" alt = "欢迎关注公众号" />
 
 
