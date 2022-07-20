@@ -14,11 +14,16 @@
 
 
 #### 哔站演示视频，欢迎关注
-[演示地址]("https://www.bilibili.com/video/BV1S94y1Q7XS/")
+
+[演示地址](https://www.bilibili.com/video/BV1S94y1Q7XS?spm_id_from=333.999.0.0&vd_source=69b8bc0caf21e9f62c56a9d0eaea2f42)
 
 <br>
 
 
 
-欢迎关注我们的公众号，更多信息会通过公众号第一时间更新。
-![公众号](./images/qrcode_for_gh_fb2b604ddd35_860%20(2).jpg)
+
+#### 欢迎关注我们的公众号，更多信息会通过公众号第一时间更新。
+
+<img src="./images/qrcode_for_gh_fb2b604ddd35_860%20(2).jpg"  width = "300" height = "300" alt = "欢迎关注公众号" />
+
+
