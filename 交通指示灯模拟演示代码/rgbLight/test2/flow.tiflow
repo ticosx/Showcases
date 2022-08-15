@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "boundLiterals": {
+        "vlgCVsNMo": "\"绿\"",
+        "zD3VTsbgV": "True"
+      },
+      "id": "9DLEpbyTe",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 3
+      },
+      "type": "@/test"
+    }
+  ]
+}

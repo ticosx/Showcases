@@ -1,0 +1,237 @@
+{
+  "links": [
+    {
+      "id": "I-uZ6L0zJ",
+      "input": {
+        "nodeId": "nwGZ9YwAZ",
+        "pinKey": "ryv7IRdSP1b"
+      },
+      "output": {
+        "nodeId": "aXJXmsL8Y",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "EtigiCZlw",
+      "input": {
+        "nodeId": "iscGjOVxS",
+        "pinKey": "SyLCdSwJZ"
+      },
+      "output": {
+        "nodeId": "nwGZ9YwAZ",
+        "pinKey": "ByHmL0uHPk-"
+      }
+    },
+    {
+      "id": "O53mmhwrw",
+      "input": {
+        "nodeId": "fT_im5_hi",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "iscGjOVxS",
+        "pinKey": "rkw3cp9k7"
+      }
+    },
+    {
+      "id": "UE-XoqmiT",
+      "input": {
+        "nodeId": "fT_im5_hi",
+        "pinKey": "HJ6HsEngZ"
+      },
+      "output": {
+        "nodeId": "iscGjOVxS",
+        "pinKey": "B1gI0urv1W"
+      }
+    },
+    {
+      "id": "SZ78Ig4qM",
+      "input": {
+        "nodeId": "msYNu4E2z",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "fT_im5_hi",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "DLwbHas47",
+      "input": {
+        "nodeId": "nwGZ9YwAZ",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "lvV5LHm4H",
+        "pinKey": "HJhXDIY9-"
+      }
+    },
+    {
+      "id": "QTWdiM2qs",
+      "input": {
+        "nodeId": "iq5EPlUmI",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "msYNu4E2z",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "fcbKwzU98",
+      "input": {
+        "nodeId": "lvV5LHm4H",
+        "pinKey": "BJI7P8t9Z"
+      },
+      "output": {
+        "nodeId": "iq5EPlUmI",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "TkX5IdrdX",
+      "input": {
+        "nodeId": "wuoj5neiX",
+        "pinKey": "S1yZIA_rDJZ"
+      },
+      "output": {
+        "nodeId": "iscGjOVxS",
+        "pinKey": "B1gI0urv1W"
+      }
+    },
+    {
+      "id": "XdKCeLb46",
+      "input": {
+        "nodeId": "iq5EPlUmI",
+        "pinKey": "Skre8ROSv1-"
+      },
+      "output": {
+        "nodeId": "wuoj5neiX",
+        "pinKey": "S13xLCuHvkW"
+      }
+    },
+    {
+      "id": "WcLrQh0tW",
+      "input": {
+        "nodeId": "bFZzGUSBH",
+        "pinKey": "ry3zLA_Bv1Z"
+      },
+      "output": {
+        "nodeId": "iscGjOVxS",
+        "pinKey": "B1gI0urv1W"
+      }
+    },
+    {
+      "id": "-izy4X52L",
+      "input": {
+        "nodeId": "msYNu4E2z",
+        "pinKey": "HJ6HsEngZ"
+      },
+      "output": {
+        "nodeId": "bFZzGUSBH",
+        "pinKey": "r1if8ROSDJ-"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B143qAq1Q": "D44"
+      },
+      "id": "iscGjOVxS",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -6
+      },
+      "type": "ticos/gpio/digital-read"
+    },
+    {
+      "id": "aXJXmsL8Y",
+      "position": {
+        "units": "slots",
+        "x": -12,
+        "y": -5
+      },
+      "type": "ticos/core/boot"
+    },
+    {
+      "id": "nwGZ9YwAZ",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": -5
+      },
+      "type": "ticos/core/any"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "True",
+        "rJjXFA9JQ": "D10"
+      },
+      "id": "fT_im5_hi",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -5
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "5"
+      },
+      "id": "iq5EPlUmI",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": -5
+      },
+      "type": "ticos/core/delay"
+    },
+    {
+      "id": "lvV5LHm4H",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 0
+      },
+      "type": "ticos/core/defer"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "True",
+        "rJjXFA9JQ": "D8"
+      },
+      "id": "msYNu4E2z",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": -5
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "r1AgIROHDJW": "0",
+        "ryTeUROHD1b": "5"
+      },
+      "id": "wuoj5neiX",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": -10
+      },
+      "type": "ticos/core/if-else"
+    },
+    {
+      "id": "bFZzGUSBH",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": -9
+      },
+      "type": "ticos/core/not"
+    }
+  ]
+}
