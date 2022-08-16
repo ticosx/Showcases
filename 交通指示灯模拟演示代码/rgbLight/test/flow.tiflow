@@ -1,0 +1,135 @@
+{
+  "links": [
+    {
+      "id": "877WjhtOJ",
+      "input": {
+        "nodeId": "IDDMvBpcD",
+        "pinKey": "rJjXFA9JQ"
+      },
+      "output": {
+        "nodeId": "QQ9BWdkXy",
+        "pinKey": "Hyap1vaaN"
+      }
+    },
+    {
+      "id": "ydbft8muj",
+      "input": {
+        "nodeId": "IDDMvBpcD",
+        "pinKey": "HJ6HsEngZ"
+      },
+      "output": {
+        "nodeId": "zD3VTsbgV",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "DWxfsNIyA",
+      "input": {
+        "nodeId": "IDDMvBpcD",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "kifwqoNR0",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "P330xEKna",
+      "input": {
+        "nodeId": "QQ9BWdkXy",
+        "pinKey": "r1b_1v6T4"
+      },
+      "output": {
+        "nodeId": "vlgCVsNMo",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "stPVCZk93",
+      "input": {
+        "nodeId": "jTKejGXFf",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "IDDMvBpcD",
+        "pinKey": "ry3pcpqyX"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "True"
+      },
+      "id": "IDDMvBpcD",
+      "position": {
+        "units": "slots",
+        "x": 22,
+        "y": 7
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "arityLevel": 3,
+      "boundLiterals": {
+        "BkeKyP66E": "D0",
+        "SkpnJvTTN": "D10",
+        "SkpnJvTTN-$1": "D9",
+        "SkpnJvTTN-$2": "D8",
+        "r1H21vppN": "\"红\"",
+        "r1H21vppN-$1": "\"黄\"",
+        "r1H21vppN-$2": "\"绿\"",
+        "r1b_1v6T4": "\"\""
+      },
+      "id": "QQ9BWdkXy",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 7
+      },
+      "type": "ticos/core/switch-case"
+    },
+    {
+      "id": "zD3VTsbgV",
+      "label": "开关",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 8
+      },
+      "type": "ticos/flow-nodes/input-boolean"
+    },
+    {
+      "id": "kifwqoNR0",
+      "label": "触发",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 10
+      },
+      "type": "ticos/flow-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "\"颜色\""
+      },
+      "id": "vlgCVsNMo",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 7
+      },
+      "type": "ticos/flow-nodes/input-string"
+    },
+    {
+      "id": "jTKejGXFf",
+      "label": "结束",
+      "position": {
+        "units": "slots",
+        "x": 27,
+        "y": 7
+      },
+      "type": "ticos/flow-nodes/output-pulse"
+    }
+  ]
+}
